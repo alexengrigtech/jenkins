@@ -1,6 +1,0 @@
-[submodule "jenya-shared-lib"]
-	path = jenya-shared-lib
-	url = https://github.com/alexengrig/jenya-shared-lib.git
-[submodule "jenya-application"]
-	path = jenya-application
-	url = https://github.com/alexengrig/jenya-application.git
