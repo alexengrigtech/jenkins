@@ -10,3 +10,6 @@ jenkins:
 unclassified:
   location:
     url: "http://localhost:8080/"
+
+jobs:
+  - file: /var/jenkins_home/seedJob.groovy
