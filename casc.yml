@@ -7,6 +7,10 @@ jenkins:
         - id: "admin"
           password: "admin"
 
+security:
+  globalJobDslSecurityConfiguration:
+    useScriptSecurity: false
+
 unclassified:
   location:
     url: "http://localhost:8080/"
