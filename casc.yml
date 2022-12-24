@@ -14,6 +14,17 @@ security:
 unclassified:
   location:
     url: "http://localhost:8080/"
+  globalLibraries:
+    libraries:
+      - name: "jenya-shared-lib"
+        defaultVersion: "master"
+        implicit: true
+        retriever:
+          modernSCM:
+            scm:
+              github:
+                repoOwner: "alexengrig"
+                repository: "jenya-shared-lib"
 
 jobs:
   - file: /var/jenkins_home/seedJob.groovy
