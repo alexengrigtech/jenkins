@@ -4,7 +4,7 @@ pipelineJob('seed-job') {
     definition {
         cpsScm {
             scm {
-                github('alexengrig/jenya-seed-job')
+                github('alexengrigtech/jenkins-seed-job')
             }
         }
     }

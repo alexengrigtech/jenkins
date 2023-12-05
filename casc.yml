@@ -1,5 +1,5 @@
 jenkins:
-  systemMessage: "Welcome to Jenya!"
+  systemMessage: "Welcome to Jenkins!"
   securityRealm:
     local:
       allowsSignup: false
@@ -16,15 +16,15 @@ unclassified:
     url: "http://localhost:8080/"
   globalLibraries:
     libraries:
-      - name: "jenya-shared-lib"
+      - name: "jenkins-shared-library"
         defaultVersion: "master"
         implicit: true
         retriever:
           modernSCM:
             scm:
               github:
-                repoOwner: "alexengrig"
-                repository: "jenya-shared-lib"
+                repoOwner: "alexengrigtech"
+                repository: "jenkins-shared-library"
 
 jobs:
   - file: /var/jenkins_home/seedJob.groovy
