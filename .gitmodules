@@ -1,0 +1,9 @@
+[submodule "jenkins-seed-job"]
+	path = jenkins-seed-job
+	url = https://github.com/alexengrigtech/jenkins-seed-job.git
+[submodule "jenkins-shared-library"]
+	path = jenkins-shared-library
+	url = https://github.com/alexengrigtech/jenkins-shared-library.git
+[submodule "jenkins-application"]
+	path = jenkins-application
+	url = https://github.com/alexengrigtech/jenkins-application.git
